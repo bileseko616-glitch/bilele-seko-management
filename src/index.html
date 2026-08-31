@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="sw">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BILE SEKO - Login</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="login-container">
+        <div class="login-box">
+            <h1>🎯 BILE SEKO</h1>
+            <h2>Management System</h2>
+            
+            <form id="loginForm">
+                <div class="form-group">
+                    <label>Simu (Phone):</label>
+                    <input type="text" id="phone" placeholder="07xxxxxxxx" required>
+                </div>
+                
+                <div class="form-group">
+                    <label>Password:</label>
+                    <input type="password" id="password" placeholder="Enter password" required>
+                </div>
+                
+                <div class="form-group">
+                    <label>Jina la Mwisho (Surname):</label>
+                    <input type="text" id="surname" placeholder="Enter surname" required>
+                </div>
+                
+                <button type="submit" class="btn-login">Login</button>
+            </form>
+            
+            <p class="admin-link">Admin? <a href="admin-login.html">Ingia hapa</a></p>
+        </div>
+    </div>
+    
+    <script src="js/auth.js"></script>
+</body>
+</html>
